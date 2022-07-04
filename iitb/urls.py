@@ -39,3 +39,6 @@ urlpatterns = [
     path('wingcleaning_detail/<int:pk>/delete/',wingcleaningdelete.as_view(),name='wingcleaningdelete-page'),
     path('wingcleaning_detail/<int:pk>/update/',wingcleaningupdate.as_view(),name='wingcleaningupdate-page'),
 ]
+admin.site.site_header = "PHO  Admin"
+admin.site.site_title = "PHO Admin Portal"
+admin.site.index_title = "Welcome to PHO Portal"
